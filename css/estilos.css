@@ -1,0 +1,1517 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sora:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+}
+
+/* =============MENU=========== */
+
+nav {
+    background-color: #1C2D5B;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+.general-container-nav {
+    padding: 0;
+}
+
+.container-logo-btnMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 1rem;
+}
+
+.anchorIndexNav {
+    text-decoration: none;
+    color: white;
+}
+
+.anchorIndexNav:hover {
+    color: white;
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+    margin: .8rem 0;
+    padding-left: .5rem;
+}
+
+.navbar-text-name {
+    margin-bottom: 0;
+    margin-left: 8px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn-burguerMenu {
+    padding: 0.6rem 1rem;
+    margin: 0 1rem;
+    border: none;
+   
+}
+.iconify-menu{
+    color: white;
+    font-size: 25px;
+}
+.btn-burguerMenu:focus {
+    border: none;
+}
+
+#anchorNav1, #anchorNav2, #anchorNav3, #navbarDropdown {
+    color: white;
+    font-size: 18px;
+    padding-left: 0.5rem;
+}
+
+.navbar-open {
+    background-color: #1C2D5B;
+}
+
+.dropdown-open {
+    background-color: #1C2D5B;
+    border: none;
+    
+}
+
+.dropdown-option1, .dropdown-option2, .dropdown-option3 {
+    color: white;
+    font-size: 17px;
+}
+
+/* ==============HOME=============== */
+
+.container-h1 {
+    padding: 2rem 0;
+}
+
+.title-h1, .introduction-text {
+    text-align: center;
+}
+
+.introduction-text {
+    padding: 0 3rem;
+    margin-top: 1.5rem;
+    font-size: 14px;
+}
+
+.title-productosDestacados, .title-opiniones-clientes  {
+    text-align: center;
+    padding: 0 5rem;
+}
+
+.carruselProductosDestacados-home {
+    margin: 2rem 0;
+}
+.productosDestacadosDIV{
+    margin-left: 60px;
+}
+
+.cardsProductos {
+    height: 520px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+.btn-productoDestacado{
+    text-align: right;
+    text-decoration: none;
+}
+.btn-productoDestacado button{
+    color: white;
+    background: #7f0000;
+    border-radius: 5px;
+    border-color: #7f0000;
+    padding: 3px 20px;
+    font-size: 13px;
+    position: relative;
+    margin: 10px;
+}
+
+.img-card-home {
+    padding: 0.5rem;
+    height: 400px;
+}
+
+.text-carrusel-opiniones {
+    text-align: center;
+    padding: 0 4rem;
+}
+
+.anchorOpiniones {
+    text-decoration: none;
+    color: #3656B1;
+}
+.text-dejanos-opinion {
+    text-align: center;
+}
+
+/*=============COMO COMPRAR===========*/
+
+.titleH1-como-comprar {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 22px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imgBanner{
+    filter: invert(0.4);
+    /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+}
+.texto1-como-comprar {
+    margin-top: 1rem;
+}
+.text-como-comprar-main-title{
+    padding:0.6rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    font-size: 18px;
+}
+.text-como-comprar-main {
+    padding:0.6rem;
+    margin: 1rem;
+    margin-top:0px ;
+}
+
+.link-whatsapp-comoComprar {
+    text-decoration: none;
+    color: #25D366;
+    font-weight: 600;
+}
+
+.link-whatsapp-comoComprar:focus {
+    color: #25D366;
+}
+
+
+/*=============FUNDAS A MEDIDA===========*/
+
+.titleH1-fundasMedida {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.imgBannerFundas{
+    filter: invert(0.4);
+    /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
+    height: 120px;
+    /*bottom: -25px;  ajustar los valores para mover la imagen */
+    object-fit: cover;
+    width: 100%;
+}
+.linkCatalogo{
+    margin-left: 8px;
+    margin-bottom: 20px;
+}
+.cardImgFundas{
+    height: 430px;
+}
+.main-fundasMedida {
+    padding: 2rem 1rem;
+}
+.texttoFundaMedida{
+    margin: 8px;
+}
+.card-fundasMedida {
+    margin: 1.5rem 0;
+}
+
+.title-card-fundasMedida { 
+    font-size: 20px;
+}
+
+.anchor-card-fundasMedida {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-card-fundasMedida:focus {
+    color: black;
+}
+.ImgDibujo{
+    width: 350px;
+    height: 310px;
+    margin-top: 20px;
+    border:solid 2px #3656B1;
+    margin: 15px;
+}
+/*=============FUNDAS MODELO LISO===========*/
+
+
+.texto-catalogo-modeloLiso {
+    padding: 1rem;
+}
+.texto-catalogo-modeloLiso p {
+    margin: 0;
+}
+
+.carrusel-modeloLiso {
+    padding: 0 5rem;
+}
+
+.img-carrusel-modeloLiso {
+    height: 300px;
+}
+
+.container-text-modeloLiso {
+    padding: 1rem 5rem;
+}
+
+.precio-modeloLiso {
+    font-weight: 700;
+    color: #3656B1;
+}
+
+/*=============FUNDAS MODELO ACOLCHONADO===========*/
+
+.texto-catalogo-modeloAcolchonado {
+    padding: 1rem;
+}
+
+.texto-catalogo-modeloAcolchonado p {
+    margin: 0; 
+    font-size: 15px;
+}
+
+.carrusel-modeloAcolchonado {
+    padding: 0 5rem;
+}
+
+.img-carrusel-modeloAcolchonado {
+    height: 300px;
+}
+
+.container-text-modeloAcolchonado {
+    padding: 1rem 5rem;
+}
+
+.precio-modeloAcolchonado {
+    font-weight: 700;
+    color: #3656B1;
+}
+
+/*=============FUNDAS MODELO DIAMANTE===========*/
+
+.texto-catalogo-modeloDiamante {
+    padding: 1rem;
+}
+
+.texto-catalogo-modeloDiamante p {
+    margin: 0; 
+}
+
+.carrusel-modeloDiamante {
+    padding: 0 5rem;
+}
+
+.img-carrusel-modeloDiamante {
+    height: 300px;
+}
+
+.container-text-modeloDiamante {
+    padding: 1rem 5rem;
+}
+
+.precio-modeloDiamante {
+    font-weight: 700;
+    color: #3656B1;
+}
+
+/*=============CUBREVOLANTES===========*/
+
+.titleH1-cubrevolantes {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(29,45,91,1) 12%, rgba(127,0,0,1) 26%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-cubrevolantes {
+    padding: 2rem 1rem;
+}
+
+.card-cubrevolantes {
+    margin: 2rem 0;
+}
+
+.title-card-cubrevolantes { 
+    font-size: 20px;
+}
+
+.anchor-card-cubrevolantes {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-card-cubrevolantes:focus {
+    color: black;
+}
+
+/*=============CUBREVOLANTES MODELO MICRO=============*/
+
+.texto-catalogo-cubrevolantesMicro {
+    padding: 1rem;
+}
+
+.texto-catalogo-cubrevolantesMicro p {
+    margin: 0; 
+}
+
+.carrusel-cubrevolantesMicro {
+    padding: 0 5rem;
+}
+
+.img-carrusel-cubrevolantesMicro {
+    height: 300px;
+}
+
+.container-text-cubrevolantesMicro {
+    padding: 1rem 5rem;
+}
+
+.precio-cubrevolantesMicro {
+    font-weight: 700;
+    color: #3656B1;
+}
+
+/*=============CUBREVOLANTES MODELO MIXTO=============*/
+
+.texto-catalogo-cubrevolantesMixto{
+    padding: 1rem;
+}
+
+.texto-catalogo-cubrevolantesMixto {
+    margin: 0; 
+}
+
+.carrusel-cubrevolantesMixto{
+    padding: 0 5rem;
+}
+
+.img-carrusel-cubrevolantesMixto{
+    height: 300px;
+}
+
+.container-text-cubrevolantesMixto{
+    padding: 1rem 5rem;
+}
+
+.precio-cubrevolantesMixto{
+    font-weight: 700;
+    color: #3656B1;
+}
+/*============ACCESORIOS===========*/
+.titleH1-accesorios{
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+     /*borde negro*/
+     -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.main-accesorios {
+    padding: 2rem 1rem;
+}
+
+.card-accesorios{
+    margin: 2rem 0;
+}
+
+.title-card-accesorios{ 
+    font-size: 20px;
+}
+
+.anchor-card-accesorios {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-card-accesorios:focus {
+    color: black;
+}
+/*============ACCESORIOS - ANTENAS / ESCOBILLAS / FUNDAStermoformadas===========*/
+
+.texto-catalogo-accesorios-tipos{
+    padding: 1rem;
+}
+
+.texto-catalogo-accesorios-tipos p {
+    margin: 0; 
+}
+
+.carrusel-accesorios-tipos{
+    padding: 0 5rem;
+}
+
+.img-carrusel-accesorios-tipos{
+    height: 300px;
+}
+
+.container-text-accesorios-tipos{
+    padding: 1rem 5rem;
+}
+
+.precio-accesorios-tipos{
+    font-weight: 700;
+    color: #3656B1;
+    margin-bottom: 5px;
+}
+
+.subTextAccesorios{
+    margin-top: 0px;
+}
+
+/*=============AGRANDAR MODAL IMAGENES DE PRODUCTOS===========*/
+
+.icono-agrandar-img{
+    width: 1.5rem;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+
+.container-agrandar-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.boton-modal {
+    background-color: black;
+}
+
+.imagen-modal {
+    height: 88vh;
+}
+
+/*=============NUESTRA EMPRESA===========*/
+
+.titleH1-nuestra-empresa{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titleNuestraEmp{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+}
+
+.textQuienesYDonde{
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 15px;
+    margin: 15px;
+}
+
+.nuestrosValores{
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+}
+.titleValores{
+    color: #3656B1;
+    font-size: 22px;
+    margin-top: 7px;
+}
+.textValores{
+    font-size: 17px;
+    margin: 35px;
+   
+}
+
+.iconifynuesEmp{
+    text-decoration: center;
+    width: 49px;
+    height: 40px;
+    color: #3656B1;
+}
+
+/*=================CATALOGO=======================*/
+.bannerCatalogo{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 22px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.titleCatalogo{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+.containerImgCatalogo{
+    width: 320px;
+    overflow: hidden;
+    position: relative;
+    margin: 5px auto;
+    border-radius: 6px;
+    box-shadow: 5px 8px 12px black;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 25px;
+   
+}
+.imgContainerCatalogo{
+    width: 100%;
+    filter: invert(0.4);
+}
+
+.containerImgCatalogo:hover{
+    transform: scale(1.1);
+    box-shadow: 13px 15px 37px black;
+}
+
+.containerImgCatalogo img{
+    width: 100%;
+    height: 270px;
+}
+
+.containerImgCatalogo p{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-48%, -50%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    
+}
+.containerImgCatalogo a{
+    text-decoration: none;
+}
+.containerImgCatalogo  button{
+    font-size: 14px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: #1d2d5b;
+    color: white;
+    padding: 4px 40px ;
+    border-radius: 5px;
+    border-color: #1d2d5b;
+
+}
+.containerImgCatalogo  button:hover{
+    background-color: #3656B1;
+    border-color: #3656B1;
+
+}
+.containerImgCatalogo .titlecat1{
+    position: absolute;
+    top: 48%;
+    left: 48%;
+    transform: translate(-48%, -40%);
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+
+/*=============CONTACTO===================*/
+
+.banner h1 {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    background: linear-gradient(90deg, rgba(127,0,0,1) 8%, rgba(54,86,177,1) 41%, rgba(29,45,91,1) 75%);
+    /*borde negro*/
+    -webkit-text-stroke: 0.3px black;
+    background-size: 300%;
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.miniText{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.titleContacto{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3656B1;
+}
+.horarios p{
+    line-height: 9px;
+    margin-left: 22px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.direccion{
+    text-decoration: none;
+}
+.direccion p{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 22px;
+    margin-right: 25px;
+}
+
+.redesSociales{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.redesSociales:hover{
+    color: #1d2d5b;
+}
+.container span{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container span:hover{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container{
+    margin-bottom: 30px;
+}
+.container .iconify.iconContact{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+
+
+/*=======FOOTER==========*/
+/*===LAYOUT===*/
+
+.bd-grid{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right:1rem;
+}
+.section{
+    padding: 3rem 0;
+}
+
+.footer{
+    background-color: #1d2d5b;
+}
+.footer a{
+    text-decoration: none;
+}
+.footer__container{
+    row-gap: 2rem;
+    text-decoration: none;
+}
+.footerTitleF7{
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    text-align: center;
+}
+.footer__title{
+    font-size: .998rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-decoration: none;
+}
+.footer__data{
+    text-decoration: none;
+}
+.footer__link{
+    padding: .5rem 0;
+    text-decoration: none;
+    color: white;
+    font-size: .8rem;
+    list-style: none;
+}
+
+.footer__link:hover{
+    color: white;
+}
+
+footer ul{
+    list-style: none;
+    padding-left: 0;
+    text-emphasis: none;
+}
+.footer__data .footer__link{
+    font-size: .9rem;
+}
+
+.footer__social{
+    font-size: 1.4rem;
+    margin-right:.5rem;
+    text-emphasis: none;
+    color: white;
+}
+
+.botonWhatsapp {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 10%;
+    right: 20px;
+}
+
+/*MODAL FOOTER*/
+
+.btnModal {
+    background-color: #25D366;
+    border-color: #25D366;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.btnModal:hover{
+    background-color: #128C7E;
+    border-color: #128C7E;
+}
+
+.btnWhats{
+    text-decoration: none;
+}
+
+/*FIN MODAL*/
+footer
+.icon-facebook,
+.icon-whatsapp,
+.icon-location,
+.icon-instagram{
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+footer
+.icon-facebook,
+.icon-whatsapp,
+.icon-location,
+.icon-instagram:hover{
+    font-size: 18px;
+    color: white;
+}
+.box__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+}
+.box__copyright p {
+    margin-top: 20px;
+    color: #8f8e8e;
+    display: flex;
+    justify-content: center;
+
+}
+.box__copyright p a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+@media screen and (min-width: 768px){
+
+    .footer__container{
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+    }
+    .footer__title{
+        font-size: 1.2rem;
+        color: white;
+
+    }
+}
+/* ========RESPONSIVE DESKTOP======== */
+
+@media screen and (min-width: 900px) {
+
+    /* ========NAVBAR======= */
+    .logo{
+        width: 65px;
+        height: 65px;
+    }
+    #general-container-nav{
+        justify-content: space-around;
+    }
+
+    .container-logo-btnMenu {
+        width: auto;
+    }
+
+    .navbar-text-name {
+        font-size: 16px;
+    }
+
+    #anchorNav1, #anchorNav2, #anchorNav3, #navbarDropdown {
+        font-size: 16px;
+        padding: 0 1rem;
+    }
+
+    .dropdown-open {
+        background-color: #1C2D5B;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .dropdown-item:hover {
+        background-color: #3656B1;
+        color: white;
+    }
+
+    #subMenu-nav {
+        margin-top: 1.6rem;
+    }
+
+    /* ===========HOME=========== */
+
+    
+    .container-h1 {
+        padding: 2rem 12.5rem;
+    }
+    
+    
+    .carruselProductosDestacados-home {
+       /* padding: 0 12.5rem;*/
+        margin: 2rem 0;
+       /* display: flex;
+        justify-content: space-between;*/
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 2rem;
+        justify-items: center;
+    }
+    .carruselProductosDestacados-home-desktop{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 2rem;
+        justify-items: center;
+        text-align: center;
+    }
+    .cardsProductos {
+        height: 400px;
+        width: 300px; 
+    }
+    .card-title{
+        font-size: 17px;
+       /* margin-top: 0px;*/
+    }
+    .img-card-home {
+        padding: 1rem;
+        height: 270px;
+
+      /* margin-bottom: 0%;*/
+    }
+    
+    .productosDestacadosDIV{
+       margin-left: 0px;
+    }
+
+    .btn-productoDestacado{
+        text-align: right;
+        text-decoration: none;
+    }
+    .btn-productoDestacado button{
+        color: white;
+        background: #7f0000;
+        border-radius: 5px;
+        border-color: #7f0000;
+        padding: 3px 20px;
+        font-size: 13px;
+        position: relative;
+        margin-top: 0px;
+    }
+
+    .text-carrusel-opiniones {
+        text-align: center;
+        padding: 0 4rem;
+    }
+    .introduction-text {
+        padding: 0 4rem;
+        margin-top: 1.6rem;
+        font-size: 19px;
+    }
+    .anchorOpiniones {
+        text-decoration: none;
+        color: #3656B1;
+    }
+    .text-dejanos-opinion {
+        text-align: center;
+    }
+    /* ===========COMO COMPRAR=========== */
+    .titleH1-como-comprar {
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        transform: translate(-17%, -30%);  
+    }
+
+    .fondoDesktopComoComprar{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 780px;
+    }
+    /* ===========CONTACTO=========== */
+    .banner h1 {
+        font-size: 40px;
+       
+    }
+
+    .fondoDesktopContacto{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 900px;
+    }
+    .imgBanner{
+        width: 750px;
+        height: 210px;
+        display: block;
+        margin: auto;
+    }
+
+.miniText{
+   
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.titleContacto{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3656B1;
+}
+.horarios p{
+    line-height: 9px;
+    margin-left: 22px;
+    margin-top: 12px;
+    font-size: 16px;
+}
+.direccion{
+    text-decoration: none;
+}
+.direccion p{
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+    margin-left: 22px;
+    margin-right: 25px;
+}
+
+.redesSociales{
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.redesSociales:hover{
+    color: #1d2d5b;
+}
+.container span{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container span:hover{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+.container{
+    margin-bottom: 30px;
+}
+.container .iconify.iconContact{
+    font-size: 23px;
+    color: #1d2d5b;
+}
+    /* ===========NUESTRA EMPRESA=========== */
+    .titleH1-nuestra-empresa{
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 30%;
+        transform: translate(-17%, -30%); 
+    }
+
+    .fondoDesktopNuestraEmpresa{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 920px;
+    }
+    .nuestrosValoresDesktop1 {
+        display: grid;
+        grid-template-columns: 250px 250px 250px;
+       margin-left: 0px;
+       justify-content: space-around;
+     }
+     .textValores{
+         font-size: 15px;
+         margin: 10px;
+     }
+     /*=============CATALOGO===========*/
+     .bannerCatalogo{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: 'Sora', sans-serif;
+        font-size: 40px;
+       
+    }
+    .fondoDesktopCatalogo1{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 980px;
+    }
+   
+    .containerImgCatalogo{
+        width: 400px;
+        height: 200px;
+    }
+
+    .containerImgCatalogo p{
+        font-size: 22px;
+        color: black;
+        
+    }
+    .containerImgCatalogo  button{
+        padding: 2px 50px ;
+    
+    
+    }
+
+    
+     /*=============FUNDAS A MEDIDA===========*/
+    .imgBannerFundas{
+        width: 750px;
+        height: 210px;
+        display: block;
+        margin: auto;
+    }
+    .titleH1-fundasMedida{
+        font-size: 40px;
+        position: absolute;
+        top: 45%;
+        left: 35%;
+        transform: translate(-17%, -30%); 
+    }
+    .fondoDesktopFudasAmedida{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 1210px;
+    }
+    .fundaAmedidaGrid{
+        display: grid;
+        grid-template-columns: 230px 230px 230px;
+       margin-left: 0px;
+       justify-content: space-around;
+     }
+    .linkCatalogo{
+       display: none;
+    }
+
+    .cardImgFundas{
+        height: 230px;
+ 
+    }
+    .ImgDibujo1{
+        position: relative;
+        text-align: center;
+      }
+      
+      .ImgDibujo {
+        position: absolute;
+        justify-content:center;
+        margin-left: 60px;
+      }
+      /*=============FUNDAS A MEDIDA - variedades LISA===========*/
+      
+        .icono-agrandar-img{
+            width: 1.5rem;
+            position: absolute;
+            right: 10px;
+            top: 35px;
+        }
+
+      .fondoDesktopFundas{
+        background: #eeebeb;
+        width: 750px;
+        display: block;
+        margin: auto;
+        height: 550px;
+      }
+      .fondoDesktopVariedadesGrid{
+        display: grid;
+        grid-template-columns: 405px 345px ;
+        margin-left: 0px;
+      }
+      .texto-catalogo-modeloLiso{
+        margin-left: 20px;
+    
+    }
+
+    .texto-catalogo-modeloLiso p {
+        margin: 0;
+    }
+
+    .carrusel-modeloLiso {
+        padding: 0 2rem;
+    }
+
+    .img-carrusel-modeloLiso {
+        height: 420px;
+        margin-top: 25px;
+    }
+
+    .container-text-modeloLiso {
+        padding: .7rem 0rem;
+        font-size: 13px;
+        margin-top: 25px;
+        margin-right: 10px;
+    }
+    .container-text-modeloLiso h1 {
+        font-size: 19px;
+        font-weight: bold
+    }
+       /*=============FUNDAS A MEDIDA - variedades ACOLCHONADO===========*/
+    
+.texto-catalogo-modeloAcolchonado {
+    margin-left: 20px;
+}
+
+.carrusel-modeloAcolchonado {
+    padding: 0 2rem;
+}
+
+.img-carrusel-modeloAcolchonado {
+    height: 420px;
+    margin-top: 17px;
+}
+
+.container-text-modeloAcolchonado {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-text-modeloAcolchonado h1 {
+    font-size: 19px;
+    font-weight: bold
+}
+
+/*=============FUNDAS A MEDIDA - variedades DIAMANTE===========*/
+
+.texto-catalogo-modeloDiamante {
+    margin-left: 20px;
+}
+
+.fondoDesktopFundas .text{
+    margin-top: 30px; 
+}
+
+.carrusel-modeloDiamante {
+    padding: 0 2rem;
+}
+
+.img-carrusel-modeloDiamante {
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-modeloDiamante {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.container-text-modeloDiamante h1 {
+    font-size: 19px;
+    font-weight: bold
+}
+
+/*=============CUBREVOLANTES===========*/
+
+.titleH1-cubrevolantes {
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-17%, -30%); 
+    
+}
+.fondoDesktopCubreVol{
+    background: #eeebeb;
+    width: 750px;
+    display: block;
+    margin: auto;
+    height: 1000px;
+}
+
+.cubreVolGrid{
+    display: grid;
+    grid-template-columns:345px 345px;
+    margin-left: 0px;
+    justify-content: space-around;
+}
+
+.cardImgCubrevolantesDesktop {
+    height: 350px;
+}
+
+
+/*=============CUBREVOLANTES MODELO MICRO=============*/
+
+.texto-catalogo-cubrevolantesMicro {
+    margin-left: 20px;
+}
+
+.fondoDesktopCubreVol .text {
+    margin-top: 30px; 
+}
+
+
+.carrusel-cubrevolantesMicro {
+    padding: 0 2rem;
+}
+
+.img-carrusel-cubrevolantesMicro {
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-cubrevolantesMicro {
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.container-text-cubrevolantesMicro h1 {
+    font-size: 19px;
+    font-weight: bold
+}
+
+/*=============CUBREVOLANTES MODELO MIXTO=============*/
+
+.texto-catalogo-cubrevolantesMixto{
+    padding: 20px;
+}
+
+.texto-catalogo-cubrevolantesMixto {
+    margin: 0; 
+}
+
+.carrusel-cubrevolantesMixto{
+    padding: 0 2rem;
+}
+
+.img-carrusel-cubrevolantesMixto{
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-cubrevolantesMixto{
+    padding: .7rem 0rem;
+    font-size: 13px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+.container-text-cubrevolantesMixto h1 {
+    font-size: 19px;
+    font-weight: bold
+}
+
+/*============ACCESORIOS===========*/
+.titleH1-accesorios{
+    font-size: 40px;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-17%, -30%); 
+}
+.fondoDesktopAccesorios{
+    background: #eeebeb;
+    width: 750px;
+    display: block;
+    margin: auto;
+    height: 810px;
+}
+
+.main-accesorios {
+    padding: 2rem 1rem;
+}
+
+.card-accesorios{
+    margin: 2rem 0;
+}
+
+.title-card-accesorios{ 
+    font-size: 20px;
+}
+
+.anchor-card-accesorios {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor-card-accesorios:focus {
+    color: black;
+}
+/*============ACCESORIOS - ANTENAS / ESCOBILLAS / FUNDAStermoformadas===========*/
+
+.texto-catalogo-accesorios-tipos{
+    padding: 1rem;
+}
+.fondoDesktopCubreVol .text{
+    margin-top: 30px; 
+    margin-left: 15px;
+}
+
+.texto-catalogo-accesorios-tipos p {
+    margin: 0; 
+}
+
+.carrusel-accesorios-tipos{
+    padding: 0 2rem;
+}
+
+.img-carrusel-accesorios-tipos{
+    height: 420px;
+    margin-top: 25px;
+}
+
+.container-text-accesorios-tipos{
+    padding: .7rem 0rem;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-right: 10px;
+}
+
+.subTextAccesorios{
+    margin-top: 0px;
+}
+.container-text-accesorios-tipos h1 {
+    font-size: 19px;
+    font-weight: bold
+}
+.botonWhatsapp {
+    font-size: 3rem;
+    position: fixed;
+    bottom: 10%;
+    right: 50px;
+}
+}
+@media screen and (min-width: 1000px) {
+    .botonWhatsapp {
+        font-size: 3.2rem;
+        right: 90px;
+        
+
+}
+}
+@media screen and (min-width: 1100px) {
+    .botonWhatsapp {
+        font-size: 3.2rem;
+        right: 100px;
+        
+}
+}
+@media screen and (min-width: 1200px) {
+    .botonWhatsapp {
+        font-size: 3.2rem;
+        right: 150px;
+        
+}
+}
+@media screen and (min-width: 1300px) {
+    .botonWhatsapp {
+        font-size: 3.2rem;
+        right: 220px;
+    }
+}
+
