@@ -1028,7 +1028,7 @@ footer
         width: 750px;
         display: block;
         margin: auto;
-        height: 780px;
+        height: 850px;
     }
     /* ===========CONTACTO=========== */
     .banner h1 {
@@ -1346,6 +1346,10 @@ footer
 
 /*=============CUBREVOLANTES MODELO MICRO=============*/
 
+.fondoDesktopCubreVolMicro {
+    height: 600px;
+}
+
 .texto-catalogo-cubrevolantesMicro {
     margin-left: 20px;
 }
@@ -1377,6 +1381,10 @@ footer
 }
 
 /*=============CUBREVOLANTES MODELO MIXTO=============*/
+
+.fondoDesktopCubreVolMixto {
+    height: 600px;
+}
 
 .texto-catalogo-cubrevolantesMixto{
     padding: 20px;
@@ -1414,12 +1422,13 @@ footer
     left: 40%;
     transform: translate(-17%, -30%); 
 }
+
 .fondoDesktopAccesorios{
     background: #eeebeb;
     width: 750px;
     display: block;
     margin: auto;
-    height: 810px;
+    height: 730px;
 }
 
 .main-accesorios {
@@ -1443,6 +1452,10 @@ footer
     color: black;
 }
 /*============ACCESORIOS - ANTENAS / ESCOBILLAS / FUNDAStermoformadas===========*/
+
+.fondoDesktopAccesoriosEscobillas, .fondoDesktopAccesoriosAntenas, .fondoDesktopAccesoriosFundasTermo {
+    height: 550px;
+}
 
 .texto-catalogo-accesorios-tipos{
     padding: 1rem;
