@@ -1320,10 +1320,10 @@ footer
     font-size: 40px;
     position: absolute;
     top: 45%;
-    left: 40%;
+    left: 35%;
     transform: translate(-17%, -30%); 
-    
 }
+
 .fondoDesktopCubreVol{
     background: #eeebeb;
     width: 750px;
