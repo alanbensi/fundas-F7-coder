@@ -225,7 +225,7 @@ nav {
 .imgBannerFundas{
     filter: invert(0.4);
     /*NO TAN ALTO EL BANNER?  ESTA BIEN ASI*/
-    height: 120px;
+    height: 200px;
     /*bottom: -25px;  ajustar los valores para mover la imagen */
     object-fit: cover;
     width: 100%;
@@ -718,15 +718,13 @@ nav {
     margin-top: 12px;
     font-size: 16px;
 }
-.direccion{
-    text-decoration: none;
-}
-.direccion p{
+
+.contactoBotonUbicacion {
+    border: none;
     font-size: 16px;
-    text-decoration: none;
-    color: black;
-    margin-left: 22px;
-    margin-right: 25px;
+    background-color: white;
+    text-align: left;
+    margin-left: 15px;
 }
 
 .redesSociales{
@@ -966,15 +964,17 @@ footer
     }
     .cardsProductos {
         height: 400px;
-        width: 300px; 
+        width: 350px; 
     }
     .card-title{
         font-size: 17px;
        /* margin-top: 0px;*/
     }
     .img-card-home {
-        padding: 1rem;
-        height: 270px;
+        height: 300px;
+        width: 260px;
+        margin-left: 45px;
+        margin-top: 10px;
 
       /* margin-bottom: 0%;*/
     }
@@ -1033,7 +1033,6 @@ footer
     /* ===========CONTACTO=========== */
     .banner h1 {
         font-size: 40px;
-       
     }
 
     .fondoDesktopContacto{
@@ -1068,15 +1067,13 @@ footer
     margin-top: 12px;
     font-size: 16px;
 }
-.direccion{
-    text-decoration: none;
+
+.contactoBotonUbicacion {
+    background-color: #eeebeb;
 }
-.direccion p{
-    font-size: 16px;
-    text-decoration: none;
-    color: black;
-    margin-left: 22px;
-    margin-right: 25px;
+
+.contactoBotonUbicacion:hover {
+    color: #1d2d5b
 }
 
 .redesSociales{
@@ -1166,7 +1163,7 @@ footer
      /*=============FUNDAS A MEDIDA===========*/
     .imgBannerFundas{
         width: 750px;
-        height: 210px;
+        height: 270px;
         display: block;
         margin: auto;
     }
@@ -1182,7 +1179,7 @@ footer
         width: 750px;
         display: block;
         margin: auto;
-        height: 1210px;
+        height: 1300px;
     }
     .fundaAmedidaGrid{
         display: grid;
